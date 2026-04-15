@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,35 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## 🎓 Học vấn
+* **Học viện Công nghệ Bưu chính Viễn thông (PTIT)**
+    * Chuyên ngành: Công nghệ Internet vạn vật (IoT)
+    * Thời gian: 2023 - Hiện tại
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## 🛠 Kỹ năng chuyên môn
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+| Nhóm kỹ năng | Chi tiết công cụ & Ngôn ngữ |
+| :--- | :--- |
+| **Lập trình** | C/C++, Python, Markdown |
+| **Vi điều khiển** | Arduino, STM32 (HAL/Register), ESP32 |
+| **Giao thức & Hệ thống** | UART, I2C, SPI, MQTT, IoT Systems |
+| **Công cụ quản lý** | Git, GitHub, VS Code, Edge Impulse |
+| **Khác** | Xử lý dữ liệu CSV, vẽ đồ thị Serial, Cơ chế PID (Drone) |
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## 🚀 Dự án tiêu biểu
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+### 1. Hệ thống Giám sát Nhiệt độ đa kênh (Arduino LM35)
+* **Mô tả:** Thiết kế hệ thống đọc dữ liệu nhiệt độ song song từ nhiều cảm biến LM35.
+* **Công nghệ:** Arduino Uno, cảm biến LM35, giao tiếp Serial qua cổng COM.
+* **Tính năng chính:** * Đọc dữ liệu ADC và chuyển đổi sang độ C thời gian thực.
+    * Đóng gói dữ liệu chuẩn CSV để dễ dàng xử lý và vẽ đồ thị trên máy tính.
+    * Quản lý mã nguồn bằng Git với quy trình Branching/Merging chuyên nghiệp.
+* **Link dự án:** [GitHub - Arduino_LM35_TempMonitor](https://github.com/DepressedCatpk/Arduino_LM35_TempMonitor)
+
+### 2. Nghiên cứu Drone & Cân bằng PID (Đang phát triển)
+* **Mô tả:** Nghiên cứu thuật toán PID để ổn định thiết bị bay không người lái.
+* **Trọng tâm:** Tối ưu hóa các tham số Kp, Ki, Kd và hiểu cơ chế khí động học của Quadcopter.
+
+## 🏆 Chứng chỉ & Hoạt động
+* Chứng chỉ hoàn thành bài thực hành Quản lý mã nguồn nâng cao với Git & GitHub.
+* Thành viên câu lạc bộ nghiên cứu khoa học chuyên ngành IoT.
