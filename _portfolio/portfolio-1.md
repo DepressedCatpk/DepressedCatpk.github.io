@@ -1,6 +1,6 @@
 ---
 title: "Hệ thống Giám sát Nhiệt độ đa kênh (Arduino)"
-excerpt: "Dự án thu thập và xử lý dữ liệu nhiệt độ từ 2 cảm biến LM35, giao tiếp qua Serial.<br/><img src='/images/profile.jpg' width='300'>"
+excerpt: "Dự án thu thập và xử lý dữ liệu nhiệt độ từ 2 cảm biến LM35, giao tiếp qua Serial.<br/><img src='/images/profile.png' width='300'>"
 collection: portfolio
 ---
 
